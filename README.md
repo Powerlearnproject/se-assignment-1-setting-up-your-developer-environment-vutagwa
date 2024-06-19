@@ -88,4 +88,18 @@ step 4: Follow the Installation Wizard till yoy select on finish
 step 1: Open Terminal. type 'cmd' on search bar
 step 2: Type 'git --version' and press Enter. 
 
+### Create a GitHub Account:
+step 1: open any desired web browser and navigate to the github website 'github.com'
+step 2: sign up for a new account by entering required details.
+step 3: verify your account 
+step 4: personalize to your desired experience and appearance. 
+
+### Initial Configuration
+step 1: open git bash
+step 2: Set Your Username by typing 'git config --global user.name "Your Name"' on your git bash terminal
+step 3: Set Your Email by typing 'git config --global user.email "your.email@example.com"' on your bash terminal
+step 4: Verify Your Configuration by typing 'git config --list' on your bash terminal
+
+
+
 
