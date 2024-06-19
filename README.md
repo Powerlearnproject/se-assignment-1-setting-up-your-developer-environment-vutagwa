@@ -52,3 +52,40 @@ Submit your document and GitHub repository link through the designated platform 
 - Adherence to submission guidelines and deadlines.
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
+
+# MY ANSWERS
+## 1. Select Your Operating System (OS)
+### Downloading Windows 11:
+
+step 1: Look for a bootable disk
+step 2: Go to Windows 11 Download Page.
+step 3: Click on "Download Now". once the windows 11 has downloaded fully.
+step 4: boot your machine then reboot it and press F9 till a boot menu appears on the screen
+step 5: select the bootable disk you had downloaded your operating system in
+step 6: select language then click on next and select the operating system version you wish to install that is windows 11 you had previously downloaded.
+step 7: click install, then delete previous partitions you had prevoiusly in the machine.
+step 8: create new partitions by clicking 'new' then click next, then let the machine download the operating system.
+
+## 2. Install a Text Editor or Integrated Development Environment (IDE)
+### Installing Visual Studio Code (VS Code).
+step 1: open any desired web browser and search visual studio code
+step 2: click on the first search and then head to download.
+step 3: select the version most appropriate for your operating system and let the installer download.
+step 4: go to file explorer and double click on the installer. 
+step 5: accept the terms of the intsaller and click next.
+step 6 select on the desktop icon option and Follow the Installation Wizard to the end
+step 7: load the visual studio code.
+
+## 3. Set Up Version Control System
+### Installing Git
+step 1: open any desired web browser and search git
+step 2: click on the first search and then head to download.
+step 3: select the version most appropriate for your operating system and let the installer download.
+step 4: Follow the Installation Wizard till yoy select on finish
+
+### Verify the Installation:
+step 1: Open Terminal. type 'cmd' on search bar
+step 2: Type 'git --version' and press Enter. 
+
+
