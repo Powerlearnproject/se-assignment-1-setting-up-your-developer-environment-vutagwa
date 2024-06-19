@@ -1,54 +1,96 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/vbnbTt5m)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15247525&assignment_repo_type=AssignmentRepo)
-# Dev_Setup
-Setup Development Environment
+# MY ANSWERS
+## 1. Select Your Operating System (OS)
+### Downloading Windows 11:
 
-#Assignment: Setting Up Your Developer Environment
+- step 1: Look for a bootable disk
+- step 2: Go to Windows 11 Download Page.
+- step 3: Click on "Download Now". once the windows 11 has downloaded fully.
+- step 4: boot your machine then reboot it and press F9 till a boot menu appears on the screen
+- step 5: select the bootable disk you had downloaded your operating system in
+- step 6: select language then click on next and select the operating system version you wish to install that is windows 11 you had previously downloaded.
+- step 7: click install, then delete previous partitions you had prevoiusly in the machine.
+- step 8: create new partitions by clicking 'new' then click next, then let the machine download the operating system.
 
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
+## 2. Install a Text Editor or Integrated Development Environment (IDE)
+### Installing Visual Studio Code (VS Code).
+- step 1: open any desired web browser and search visual studio code
+- step 2: click on the first search and then head to download.
+- step 3: select the version most appropriate for your operating system and let the installer download.
+- step 4: go to file explorer and double click on the installer. 
+- step 5: accept the terms of the intsaller and click next.
+- step 6 select on the desktop icon option and Follow the Installation Wizard to the end
+- step 7: load the visual studio code.
 
-#Tasks:
+## 3. Set Up Version Control System
+### Installing Git
+- step 1: open any desired web browser and search git
+- step 2: click on the first search and then head to download.
+- step 3: select the version most appropriate for your operating system and let the installer download.
+- step 4: Follow the Installation Wizard till yoy select on finish
 
-1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+### Verify the Installation:
+- step 1: Open Terminal. type 'cmd' on search bar
+- step 2: Type 'git --version' and press Enter. 
 
-2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+### Create a GitHub Account:
+- step 1: open any desired web browser and navigate to the github website 'github.com'
+- step 2: sign up for a new account by entering required details.
+- step 3: verify your account 
+- step 4: personalize to your desired experience and appearance. 
 
-4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+### Initial Configuration
+- step 1: open git bash
+- step 2: Set Your Username by typing 'git config --global user.name "Your Name"' on your git bash terminal
+- step 3: Set Your Email by typing 'git config --global user.email "your.email@example.com"' on your bash terminal
+- step 4: Verify Your Configuration by typing 'git config --list' on your bash terminal
 
-5. Install Package Managers:
-   If applicable, install package managers like pip (Python).
+## 4. Install Necessary Programming Languages and Runtimes
+### installing Python
+- step 1: open any desired web browser and navigate to the python.org'.
+- step 2: Navigate to Downloads: Click on the "Downloads" 
+- step 3: go to file explorer and double click on the installer and run it. 
+- step 4: follow the guide of the setup wizard to download python on your machine
 
-6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+### Verify Python Installation
+- step 1: Open a Command Prompt or Terminal
+- step 2: Check Python Version Type 'python --version' or 'python3 --version' and press Enter.
 
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+## 5. Install Package Managers
+### Installing pip on Windows
+- step 1: Check Python Installation-> Open Command Prompt and type 'python --version'
+- step 2: Download get-pip.py Script-> Open Command Prompt and type 'curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py' or 'wget https://bootstrap.pypa.io/get-pip.py'
+- step 3: Run the Python script 'python get-pip.py' to install pip
+- step 4: Verify Installation by running the 'pip --version' command
 
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+## 5. Configure a Database (i am having challanges with this)
+### installing MySQL
+- step 1: Visit the MySQL Downloads Page
+- step 2: Select MySQL Community Server
+- step 3: go to file explorer and double click on the installer and run it.
+- step 4: follow the guide of the setup wizard.
 
-9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+## Set Up Development Environments and Virtualization
+### Setting Up Development Environment in VirtualBox
+- step 1: Install Guest Additions:
+      - Start your VM in VirtualBox.
+      - In the VM window menu, click on "Devices" > "Insert Guest Additions CD Image..."
+      - Follow the setup wizard instructions to install Guest Additions
+- step 2: Install Development Tools
+### Setting Up Development Environment in Docker
+- step 1: Pull Docker Images
+- step 2: Create Dockerfile
+- step 3: Build Docker Image
+- step 4: Run Docker Container
 
-#Deliverables:
-- Document detailing the setup process with step-by-step instructions and screenshots where necessary.
-- A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
-- A reflection on the challenges faced during setup and strategies employed to overcome them.
+## Explore Extensions and Plugins
+- step 1: Open Visual Studio Code.
+- step 2: Access Extensions Marketplace in the sidebar or or press 'Ctrl+Shift+X'
+- step 3: Search for Extensions. example python
+- step 4: Install Extensions
 
-#Submission:
-Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
 
-#Evaluation Criteria:**
-- Completeness and accuracy of setup documentation.
-- Effectiveness of version control implementation.
-- Appropriateness of tools selected for the project requirements.
-- Clarity of reflection on challenges and solutions encountered.
-- Adherence to submission guidelines and deadlines.
 
-Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
+
+
+
